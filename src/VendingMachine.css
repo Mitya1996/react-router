@@ -1,5 +1,5 @@
 .VendingMachine {
-  background: url("img/vending-machine.jpg");
+  background: url("img/stephan-valentin-r74II0tE7tc-unsplash.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,4 +62,8 @@
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 2px 2px orchid;
 }
