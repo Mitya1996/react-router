@@ -37,7 +37,9 @@ function Cookies() {
     <div className="Cookies">
       <div className="Cookies-message">
         <h1>cookies eaten: {cookies.length}</h1>
-        <CustomButton onClick={handleClick}>nom nom nom</CustomButton>
+        <CustomButton variant="outlined" onClick={handleClick}>
+          nom nom nom
+        </CustomButton>
         <h1>
           <Link to="/">go back</Link>
         </h1>
