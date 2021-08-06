@@ -1,0 +1,44 @@
+.Nuts {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .Nuts {
+    flex-direction: column;
+  }
+}
+
+.Nuts-info {
+  text-align: center;
+  background-color: rgba(218, 112, 214, 0.596);
+  height: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Nuts-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.Nuts img {
+  animation: spin 1s linear infinite;
+  width: 75px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -4,5 +4,13 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: large;
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: x-large;
+  }
 }
